@@ -1,0 +1,21 @@
+---
+micronaut:
+  server:
+    port: 10501
+  application:
+    name: shape
+
+---
+datasources:
+  default:
+    url: jdbc:postgresql://localhost:5432/shopping-cart-db
+    driverClassName: org.postgresql.Driver
+    username: ninjadev
+    password: ninjadev@1
+jpa:
+  default:
+    properties:
+      hibernate:
+        hbm2ddl:
+          auto: update
+

@@ -1,0 +1,5 @@
+profile: service
+defaultPackage: com.thoughtworks
+---
+testFramework: junit
+sourceLanguage: java
